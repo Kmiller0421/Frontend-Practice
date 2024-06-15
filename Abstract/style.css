@@ -7,6 +7,7 @@
     --button-hover-background: #ffffff;
     --button-hover-color: #000000;
 }
+
 * {
     margin: 0;
     padding: 0;
@@ -17,7 +18,7 @@
 }
 
 body {
-   width: 100%;
+    width: 100%;
 }
 
 header {
@@ -125,6 +126,40 @@ input {
     position: absolute;
     top: 6px;
     right: 6px
+}
+
+/* Main Section */
+
+.main-section {
+    margin: 0;
+    padding: 60px;
+}
+
+h2 {
+    font-weight: bold;
+}
+
+.category-img {
+    display: block;
+    max-height: 92px;
+}
+
+.category-section {
+    display: flex;
+    margin: 20px;
+}
+
+.category-content {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    line-height: 32px;
+    margin-left: 20px;
+}
+
+.category-items {
+    margin-bottom: 20px;
+    font-size: 24px;
 }
 
 
