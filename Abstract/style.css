@@ -132,7 +132,10 @@ input {
 
 .main-section {
     margin: 0;
-    padding: 60px;
+    padding: 100px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
 }
 
 h2 {
