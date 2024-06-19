@@ -13,7 +13,6 @@
     padding: 0;
     box-sizing: border-box;
     font-family: sans-serif;
-    font-size: 14px;
     font-weight: 400;
 }
 
@@ -76,10 +75,6 @@ header {
 
 }
 
-.logo:hover {
-    
-}
-
 .help:hover{
     text-decoration: underline;
 }
@@ -129,22 +124,22 @@ input {
 }
 
 /* Main Section */
-
 .main-section {
-    margin: 0;
-    padding: 100px;
+    margin: 50px auto 50px auto;
+    width: 100%;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
 }
 
-h2 {
+h4 {
     font-weight: bold;
 }
 
 .category-img {
     display: block;
-    max-height: 92px;
+    height: 60px;
+    max-width: 100%;
 }
 
 .category-section {
@@ -155,15 +150,81 @@ h2 {
 .category-content {
     display: flex;
     flex-direction: column;
-    width: 300px;
-    line-height: 32px;
+    min-height: 115px;
+    width: 313px;
+    line-height: 1.6;
     margin-left: 20px;
+    font-size: 14px;
 }
 
 .category-items {
-    margin-bottom: 20px;
-    font-size: 24px;
+    margin-bottom: 5px;
 }
+
+.learn-more {
+    text-decoration: none;
+}
+
+/* Footer Section */
+
+.footer-section {
+    background-color: var(--nav-footer-background);
+    color: var(--text-color);
+    min-height: 50vh;
+    display: flex;
+    justify-content: space-between;
+    padding: 40px
+}
+
+.footer-category {
+    display: flex;
+    flex-direction: column;
+    font-size: 12px;
+    margin-left: 20px;
+}
+
+.footer-content {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+
+.footer-title {
+    margin-bottom: 15px;
+    font-weight: bold;
+}
+
+.footer-content a {
+    margin-bottom: 0.5em;
+    color: var(--text-color);
+    text-decoration: none;
+}
+
+.footer-content a:hover {
+    text-decoration: underline;
+}
+
+.footer-contact {
+    margin-bottom: 6px;
+}
+
+.footer-copyright {
+    display: flex;
+    flex-direction: column;
+    font-size: 12px;
+    margin-top: 12%;
+}
+
+.footer-logo {
+    display: block;
+    max-width: 92px;
+    margin-bottom: 15px
+}
+
+.footer-content p {
+    margin-bottom: 3px;
+}
+
 
 
 
